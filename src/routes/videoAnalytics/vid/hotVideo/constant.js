@@ -1,0 +1,90 @@
+export const exportColumns = [{
+  title: '视频编码',
+  dataIndex: 'puid',
+  key: 'puid',
+}, {
+  title: '是否为爬取视频',
+  dataIndex: 'is_spider',
+  key: 'is_spider',
+  width: 180,
+}, {
+  title: '播放人数',
+  dataIndex: 'ply_vdo_vivashow_dvc_cnt_1d',
+  key: 'ply_vdo_vivashow_dvc_cnt_1d',
+}, {
+  title: '播放总数',
+  dataIndex: 'ply_vdo_vivashow_cnt_1d',
+  key: 'ply_vdo_vivashow_cnt_1d',
+}, {
+  title: '播放时长',
+  dataIndex: 'ply_vdo_dur_vivashow_1d',
+  key: 'ply_vdo_dur_vivashow_1d',
+}, {
+  title: '有效播放总数',
+  dataIndex: 'ply_vdo_vivashow_cnt_3s_1d',
+  key: 'ply_vdo_vivashow_cnt_3s_1d',
+}, {
+  title: '有效播放人数',
+  dataIndex: 'ply_vdo_vivashow_dvc_cnt_3s_1d',
+  key: 'ply_vdo_vivashow_dvc_cnt_3s_1d',
+}, {
+  title: '有效播放时长',
+  dataIndex: 'ply_vdo_dur_vivashow_3s_1d',
+  key: 'ply_vdo_dur_vivashow_3s_1d',
+}, {
+  title: '点赞总数',
+  dataIndex: 'lk_vdo_vivashow_cnt_1d',
+  key: 'lk_vdo_vivashow_cnt_1d',
+}, {
+  title: '点赞人数',
+  dataIndex: 'lk_vdo_vivashow_dvc_cnt_1d',
+  key: 'lk_vdo_vivashow_dvc_cnt_1d',
+}, {
+  title: '评论总数',
+  dataIndex: 'cmnt_vdo_vivashow_cnt_1d',
+  key: 'cmnt_vdo_vivashow_cnt_1d',
+}, {
+  title: '评论人数',
+  dataIndex: 'cmnt_vdo_vivashow_dvc_cnt_1d',
+  key: 'cmnt_vdo_vivashow_dvc_cnt_1d',
+}, {
+  title: '曝光总数',
+  dataIndex: 'exp_vdo_vivashow_cnt_1d',
+  key: 'exp_vdo_vivashow_cnt_1d',
+}, {
+  title: '曝光人数',
+  dataIndex: 'exp_vdo_vivashow_dvc_cnt_1d',
+  key: 'exp_vdo_vivashow_dvc_cnt_1d',
+}, {
+  title: '视频下载次数',
+  dataIndex: 'dnld_vdo_vivashow_cnt_1d',
+  key: 'dnld_vdo_vivashow_cnt_1d',
+}, {
+  title: '语言',
+  dataIndex: 'lang',
+  key: 'lang',
+}, {
+  title: 'whatsapp转发次数',
+  dataIndex: 'fwd_wapp_vdo_vivashow_cnt_1d',
+  key: 'fwd_wapp_vdo_vivashow_cnt_1d',
+}, {
+  title: 'whatsapp转发人数数',
+  dataIndex: 'fwd_wapp_vdo_vivashow_dvc_cnt_1d',
+  key: 'fwd_wapp_vdo_vivashow_dvc_cnt_1d',
+}, {
+  title: '发布时间',
+  dataIndex: 'publish_time',
+  key: 'publish_time',
+  width: 280,
+}, {
+  title: 'ptr',
+  dataIndex: 'ptr',
+  key: 'ptr',
+  width: 100,
+  sorter: (a, b) => parseFloat(a.ptr) - parseFloat(b.ptr),
+}];
+
+export const MAJIA_1 = {
+  N: '非爬取视频',
+  Y: '爬取视频',
+};

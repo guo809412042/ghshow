@@ -1,0 +1,95 @@
+.queryWrapper {
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 0 10px 0;
+
+  .queryItem {
+    margin-right: 8px;
+    position: relative;
+
+    &:before {
+      position: absolute;
+      color: #999999;
+      top: -18px;
+      left: 2px;
+      font-size: 12px;
+    }
+  }
+}
+
+.platformLabel {
+  width: 100px;
+
+  &:before {
+    content: '\5e73\53f0';
+  }
+}
+
+.typeLabel {
+  &:before {
+    content: '\7ef4\5ea6';
+  }
+}
+
+.countryLabel {
+  width: 200px;
+
+  &:before {
+    content: '\56fd\5bb6/\5730\533a';
+  }
+}
+
+.sourceLabel {
+  width: 150px;
+
+  &:before {
+    content: '\6765\6e90';
+  }
+}
+
+.dateLabel {
+  width: 220px;
+
+  &:before {
+    content: '\65f6\95f4\8303\56f4';
+  }
+
+}
+
+.datepickerFooter {
+  :global .ant-calendar-footer-extra {
+    float: none;
+    text-align: center;
+  }
+}
+
+.maskWrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+  background-color: #fff;
+  div{
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    padding-top: 120px;
+  }
+}
+
+.maskWrapper.hidden {
+  display: none;
+  opacity: 0;
+  z-index: -1;
+}
+
+.maskWrapper.loading {
+  display: block;
+  opacity: 0.6;
+  z-index: 99;
+}
+
+.maskWrapper.nodata {
+  display: block;
+  opacity: 1;
+  z-index: 99;
+}

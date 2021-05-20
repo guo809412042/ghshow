@@ -1,0 +1,71 @@
+.marginPx {
+  margin-top: 15px;
+}
+
+.marginPxForItem {
+  margin-top: 8px;
+}
+
+.fixedBottom {
+  display: inline-block;
+  margin-right: 10;
+  position: fixed;
+  right: 5%;
+  bottom: 3%;
+  z-index: 1000;
+}
+
+.platformlist {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.reference {
+  background-color: #cccccc;
+}
+
+/*修改复制按钮布局*/
+.componentFloatLeft {
+  position: fixed;
+  bottom: 10px;
+  left: 13%;
+  /* z-index: ; */
+}
+
+.componentFloatLeft>div {
+  float: left;
+  margin-right: 15px;
+}
+
+.FormItemWidth {
+  width: 225px !important;
+}
+
+.queryselectWidth {
+  width: 154px !important;
+}
+
+.FormItemWidthEn {
+  width: 425px !important;
+}
+
+.queryselectWidthEn {
+  width: 254px !important;
+}
+
+.labelWidth label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+}
+
+:global(.braftEditorContainer) img {
+  width: 80%;
+}
+
+:global(.braftEditorContainer) video {
+  width: 80%;
+}

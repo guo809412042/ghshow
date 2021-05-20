@@ -1,0 +1,126 @@
+.circle{
+  width: 10px;      
+  height: 10px;   
+  display: inline-block;     
+  border-radius: 50%;      
+  margin: 0px 10px;
+  -moz-border-radius: 50%;     
+  -webkit-border-radius: 50%;
+}
+.textPrimary{
+  background-color: #727cf5!important;
+}
+.textOrange{
+  background-color: #fd7e14!important;
+}
+.textGreen{
+  background-color: #0acf97!important;
+}
+.textPink{
+  background-color: #ff679b!important;
+}
+
+.homeTitle {
+  color: #7d8c95;
+  font-size: 20px;
+}
+
+.homeCard{
+  :global{
+    .ant-table-tbody .ant-table-thead > tr, .ant-table-tbody > tr{
+      line-height: 0;
+      padding: 5px;
+    }
+    .ant-table-thead > tr > th{
+      background: transparent;
+    }
+    .ant-table-thead > tr > th, .ant-table-tbody > tr > td{
+      line-height: 30px;
+      padding: 5px;
+    }
+  }
+}
+
+.homeCard{
+  margin-bottom: 25px;
+  box-shadow: none;
+  background-color: #f7fafe;
+  border: 1px solid #e7ebf1;
+  border-radius: 0;
+  // height: 135px;
+  p{
+    color: #636262;
+    font-size: 14px;
+    margin-top: .5rem!important;
+  }
+  h5{
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+   }
+  hr{
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}
+.homeIconBox{
+  width: 55px;
+  height: 55px;
+  margin: 0 auto;
+  border: 0px solid #fff;
+  border-radius: 50%;
+  text-align: center;
+  color: #fff;
+  span{
+    top: 25%;
+    position: relative;
+    font-size: 18px;
+  }
+}
+.homeIconBox:nth-of-type(1){
+  background: linear-gradient(180deg, #2af598, #009efd)!important
+}
+.homeIconBox:nth-of-type(2){
+  background: linear-gradient(45deg, #ee0979, #ff6a00)!important;
+}
+
+.homeCardBody {
+  flex: 1 1 auto;
+  padding: 0.85rem;
+}
+.homeCardHeader{
+  padding: 1.15rem 1.25rem;
+  margin-bottom: 0;
+  background: transparent;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  font-weight: 600;
+  font-size: 14px;
+  color: #000000;
+}
+
+.homeCardLeft {
+  align-items: center;
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.chartNum {
+  text-align: center;
+  color: #637282;
+  //font-size: 20px;
+  margin: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.rateIcon {
+  cursor: pointer;
+  font-size: 40%;
+  margin-left: 5px;
+  position: relative;
+  bottom: 5px;
+  color: #637282;
+}
+
+.datepickerFooter {
+  :global .ant-calendar-footer-extra {
+    float: none;
+    text-align: center;
+  }
+}
